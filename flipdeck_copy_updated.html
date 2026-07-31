@@ -8,7 +8,7 @@
   :root{
     --ink:#2C2C2B;
     --ink-2:#7D7A75;
-    --canvas:#FFFFFF;
+    --canvas:transparent;
     --soft:#F9F8F7;
     --soft-2:#F0EFED;
     --border:#E6E5E3;
@@ -23,7 +23,7 @@
   body{
     font-family:var(--sans);
     color:var(--ink);
-    background:var(--canvas);
+    background:transparent;
   }
 
   /* ===== Component wrapper (drop-in for a larger page) ===== */
@@ -204,7 +204,7 @@
   <section class="flipdeck" aria-label="Flip card deck">
     <div class="flipdeck__intro">
       <span class="dot" aria-hidden="true"></span>
-      <span><b>Tap a card</b> to flip it &nbsp;·&nbsp; swipe or scroll sideways to explore the deck</span>
+      <span>Swipe or scroll sideways to explore the deck</span>
     </div>
     <div class="deck-viewport" id="viewport">
       <div class="deck-track" id="track"></div>
